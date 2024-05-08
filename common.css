@@ -35,3 +35,8 @@
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+
+
+.ex-1-square:hover{
+    background-color: red;
+}
