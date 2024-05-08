@@ -110,15 +110,15 @@
 
 .ex-11-icon:hover{
     -webkit-animation-name: reverse ;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: reverse ;
-    -moz-animation-duration: 2ms;
+    -moz-animation-duration: 3s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: reverse ;
-    -ms-animation-duration: 2ms;
+    -ms-animation-duration: 3s;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     -o-transition: rotate(270deg);
@@ -131,6 +131,7 @@
     to { -moz-transform: rotate(270deg); }
     
     
+    
     from { -webkit-transform: rotate(0deg); }
     to { -webkit-transform: rotate(270deg); }
   
@@ -138,3 +139,25 @@
     to {transform:rotate(270deg);}
     
 }
+
+
+/*Esercizio 12*/
+
+
+.ex-12-button{
+    transition: all 5s;
+   
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    bottom: -10px;
+    right: 60%;
+
+
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    top: -10px;
+    left: 60%;
+}
+
