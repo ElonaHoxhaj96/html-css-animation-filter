@@ -48,3 +48,7 @@
 .ex-3-square:hover{
     border-radius: 50px;
 }
+
+.ex-4-square:hover{
+  background: none;
+}
