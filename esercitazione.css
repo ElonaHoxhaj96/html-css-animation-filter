@@ -13,3 +13,13 @@
 .ex-4-square:hover{
   background: none;
 }
+
+.ex-5-square:hover{
+    width: 90px;
+    height: 90px;
+}
+
+.ex-5-square:active{
+    width: 10px;
+    height: 10px;
+}
