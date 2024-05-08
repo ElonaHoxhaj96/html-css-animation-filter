@@ -44,7 +44,7 @@
     filter: grayscale(1);
 }
 
-/*Esercizio 7 non so come fare non avendo un immagine */
+/*Esercizio 7 da fare alla fine  */
 
 
 /*Esercizio 8*/
@@ -56,3 +56,19 @@
     filter: blur(1px) grayscale(1);
     border-radius: 30px;
 }
+
+
+/*Esercizio 9*/
+.ex-9-img{
+    transition: all 0.8s;
+}
+
+.ex-9-img:hover{
+    margin: 50px 100px;
+    filter: blur(1px) grayscale(1);
+    border-radius: 30px;
+    width: 300px;
+}
+
+
+
