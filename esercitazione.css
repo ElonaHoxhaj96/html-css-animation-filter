@@ -15,11 +15,13 @@
 }
 
 .ex-5-square:hover{
-    width: 90px;
-    height: 90px;
+    margin: 0;
+    width: 100px;
+    height: 100px;
 }
 
 .ex-5-square:active{
-    width: 10px;
-    height: 10px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
 }
