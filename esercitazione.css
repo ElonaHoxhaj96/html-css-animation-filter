@@ -45,6 +45,15 @@
 }
 
 /*Esercizio 7 da fare alla fine  */
+.ex-7-img{
+    transition: all 0.5s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1) sepia(0.70);
+
+}
+
 
 
 /*Esercizio 8*/
