@@ -9,6 +9,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 1s;
 }
 .ex-3-square {
     width: 100px;
